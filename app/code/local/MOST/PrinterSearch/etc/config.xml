@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <MOST_PrinterSearch>
+      <version>0.1.0</version>
+    </MOST_PrinterSearch>
+  </modules>
+  
+  <global>
+    <helpers>
+      <printersearch>
+        <class>MOST_PrinterSearch_Helper</class>
+      </printersearch>
+    </helpers>
+  </global>
+  
+  <frontend>
+        <layout>      
+            <updates>           
+                <printersearch>               
+                    <file>printersearch.xml</file>           
+                </printersearch>       
+            </updates>   
+        </layout>
+        
+        <routers>            
+            <printersearch>                
+                <use>standard</use>                
+                <args>                    
+                    <module>MOST_PrinterSearch</module>                    
+                    <frontName>printersearch</frontName>                
+                </args>            
+            </printersearch>        
+        </routers>    
+    </frontend>
+    
+</config> 
