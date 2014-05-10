@@ -1,0 +1,7 @@
+<layout version="0.1.0">
+    <printersearch_index_index>
+        <reference name="content">
+            <block name="printsearch.form" type="core/template" template="printersearch/form.phtml" as="printersearch_form"/> 
+        </reference>  
+    </printersearch_index_index>
+</layout>

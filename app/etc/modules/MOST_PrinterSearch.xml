@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <MOST_PrinterSearch>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </MOST_PrinterSearch>
+  </modules>
+</config>

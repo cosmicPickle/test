@@ -1,0 +1,12 @@
+*
+!*/
+!.gitignore
+!app/code/*/
+!app/code/local/*/
+!app/code/local/MOST/*/
+!app/code/local/MOST/PrinterSearch/*
+!app/design/frontend/base/default/layout/printersearch.xml
+!app/design/frontend/base/default/template/printersearch
+!app/etc/modules/MOST_PrinterSearch.xml
+
+
